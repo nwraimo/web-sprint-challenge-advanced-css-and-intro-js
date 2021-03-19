@@ -135,13 +135,19 @@ button:hover{
     width:100%;
 }
 
-/* Media Queries */
-/* Mobile Design */
-@media(max-width: 500px;){
+@media(max-width: 500px){
     nav{
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        width: 60%;
+    }
+    a{
+        font-size: 2.0rem;
+    }
+    a #home{
+        font-weight: bold;
+    }
+    nav span{
+        height: 4vh;
+        margin-top: 2%;
+        border-left: 2px solid #626262;
     }
 }
